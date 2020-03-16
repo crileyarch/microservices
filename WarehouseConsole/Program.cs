@@ -77,7 +77,7 @@ namespace WarehouseConsole
                 new MediaTypeWithQualityHeaderValue("application/json"));
             try
             {
-                Warehouse warehouse = await GetWarehouseAsync("/warehouse/2");
+                Warehouse warehouse = await GetWarehouseAsync("/warehouses/2");
                 ShowWarehouse(warehouse);
             }catch(Exception e) { Console.WriteLine(e.Message); }
             //Invoke Catalog Service to get Inventory
