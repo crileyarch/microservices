@@ -4,11 +4,12 @@
   "description": "Catalog API for retrieving products from warehouse",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "author": "Chris Riley",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^25.2.7"
   }
 }
