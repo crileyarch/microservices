@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/WarehouseConsole/.vs/WarehouseConsole/v16
+/WarehouseConsole/bin
+/WarehouseConsole/obj
+/WarehouseConsole/Properties/PublishProfiles
